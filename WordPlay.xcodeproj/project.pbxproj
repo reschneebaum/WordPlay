@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		B8A855AC1B558F4000427AA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A855AB1B558F4000427AA3 /* main.m */; };
 		B8A855AF1B558F4000427AA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A855AE1B558F4000427AA3 /* AppDelegate.m */; };
-		B8A855B21B558F4000427AA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A855B11B558F4000427AA3 /* ViewController.m */; };
+		B8A855B21B558F4000427AA3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A855B11B558F4000427AA3 /* RootViewController.m */; };
 		B8A855B51B558F4000427AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A855B31B558F4000427AA3 /* Main.storyboard */; };
 		B8A855B71B558F4000427AA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A855B61B558F4000427AA3 /* Images.xcassets */; };
 		B8A855BA1B558F4000427AA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8A855B81B558F4000427AA3 /* LaunchScreen.xib */; };
 		B8A855C61B558F4000427AA3 /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A855C51B558F4000427AA3 /* WordPlayTests.m */; };
+		B8A855D11B55903100427AA3 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A855D01B55903100427AA3 /* EnterNameViewController.m */; };
+		B8A855D41B5590D000427AA3 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A855D31B5590D000427AA3 /* EnterAdjectiveViewController.m */; };
+		B8A855D71B5591B100427AA3 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A855D61B5591B100427AA3 /* ResultsViewController.m */; };
+		B8A855DA1B55AF5B00427AA3 /* EnterNounViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A855D91B55AF5B00427AA3 /* EnterNounViewController.m */; };
+		C4303EC31B55C77B008C31A0 /* EnterVerbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4303EC21B55C77B008C31A0 /* EnterVerbViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,24 @@
 		B8A855AB1B558F4000427AA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8A855AD1B558F4000427AA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8A855AE1B558F4000427AA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B8A855B01B558F4000427AA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B8A855B11B558F4000427AA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8A855B01B558F4000427AA3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B8A855B11B558F4000427AA3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		B8A855B41B558F4000427AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8A855B61B558F4000427AA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B8A855B91B558F4000427AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B8A855BF1B558F4000427AA3 /* WordPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A855C41B558F4000427AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8A855C51B558F4000427AA3 /* WordPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlayTests.m; sourceTree = "<group>"; };
+		B8A855CF1B55903100427AA3 /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		B8A855D01B55903100427AA3 /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
+		B8A855D21B5590D000427AA3 /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		B8A855D31B5590D000427AA3 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		B8A855D51B5591B100427AA3 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		B8A855D61B5591B100427AA3 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		B8A855D81B55AF5B00427AA3 /* EnterNounViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNounViewController.h; sourceTree = "<group>"; };
+		B8A855D91B55AF5B00427AA3 /* EnterNounViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNounViewController.m; sourceTree = "<group>"; };
+		C4303EC11B55C77B008C31A0 /* EnterVerbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterVerbViewController.h; sourceTree = "<group>"; };
+		C4303EC21B55C77B008C31A0 /* EnterVerbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterVerbViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +98,18 @@
 			children = (
 				B8A855AD1B558F4000427AA3 /* AppDelegate.h */,
 				B8A855AE1B558F4000427AA3 /* AppDelegate.m */,
-				B8A855B01B558F4000427AA3 /* ViewController.h */,
-				B8A855B11B558F4000427AA3 /* ViewController.m */,
+				B8A855B01B558F4000427AA3 /* RootViewController.h */,
+				B8A855B11B558F4000427AA3 /* RootViewController.m */,
+				B8A855CF1B55903100427AA3 /* EnterNameViewController.h */,
+				B8A855D01B55903100427AA3 /* EnterNameViewController.m */,
+				B8A855D21B5590D000427AA3 /* EnterAdjectiveViewController.h */,
+				B8A855D31B5590D000427AA3 /* EnterAdjectiveViewController.m */,
+				B8A855D81B55AF5B00427AA3 /* EnterNounViewController.h */,
+				B8A855D91B55AF5B00427AA3 /* EnterNounViewController.m */,
+				C4303EC11B55C77B008C31A0 /* EnterVerbViewController.h */,
+				C4303EC21B55C77B008C31A0 /* EnterVerbViewController.m */,
+				B8A855D51B5591B100427AA3 /* ResultsViewController.h */,
+				B8A855D61B5591B100427AA3 /* ResultsViewController.m */,
 				B8A855B31B558F4000427AA3 /* Main.storyboard */,
 				B8A855B61B558F4000427AA3 /* Images.xcassets */,
 				B8A855B81B558F4000427AA3 /* LaunchScreen.xib */,
@@ -219,8 +244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8A855B21B558F4000427AA3 /* ViewController.m in Sources */,
+				C4303EC31B55C77B008C31A0 /* EnterVerbViewController.m in Sources */,
+				B8A855B21B558F4000427AA3 /* RootViewController.m in Sources */,
 				B8A855AF1B558F4000427AA3 /* AppDelegate.m in Sources */,
+				B8A855D41B5590D000427AA3 /* EnterAdjectiveViewController.m in Sources */,
+				B8A855D71B5591B100427AA3 /* ResultsViewController.m in Sources */,
+				B8A855D11B55903100427AA3 /* EnterNameViewController.m in Sources */,
+				B8A855DA1B55AF5B00427AA3 /* EnterNounViewController.m in Sources */,
 				B8A855AC1B558F4000427AA3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +446,7 @@
 				B8A855CB1B558F4000427AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8A855CC1B558F4000427AA3 /* Build configuration list for PBXNativeTarget "WordPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +455,7 @@
 				B8A855CE1B558F4000427AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
